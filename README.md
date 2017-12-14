@@ -19,5 +19,7 @@ Spring-Cloud-Eureka-Consumer: 服务治理 服务消费者 客户端项目
 
 Spring-Cloud-Eureka-Ribbon-Consumer: 服务治理 Ribbon 服务消费者 客户端项目
 
+Spring-Cloud-Eureka-Feign-Consumer: 服务治理 Feign 服务消费者 客户端项目
+
 #### Reference Site
 http://blog.didispace.com/Spring-Cloud基础教程/
