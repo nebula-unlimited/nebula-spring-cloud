@@ -17,5 +17,7 @@ Spring-Cloud-Eureka-Client: 服务治理 服务提供者 客户端项目
 
 Spring-Cloud-Eureka-Consumer: 服务治理 服务消费者 客户端项目
 
+Spring-Cloud-Eureka-Ribbon-Consumer: 服务治理 Ribbon 服务消费者 客户端项目
+
 #### Reference Site
 http://blog.didispace.com/Spring-Cloud基础教程/
