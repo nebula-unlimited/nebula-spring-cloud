@@ -18,7 +18,7 @@ public class IndexController {
 
     @RequestMapping("/")
     public String index() {
-        String callback = "service: " + discoveryClient.getServices();
+        String callback = "index: " + discoveryClient.getServices();
         System.out.println(callback);
         return callback;
     }
@@ -31,7 +31,7 @@ public class IndexController {
          */
         ///Thread.sleep(5000L);
 
-        String callback = "hello";
+        String callback = "hello: " + discoveryClient.getServices();
         System.out.println(callback);
         return callback;
     }
