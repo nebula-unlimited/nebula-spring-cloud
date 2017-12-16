@@ -4,18 +4,20 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
+import org.springframework.cloud.netflix.feign.EnableFeignClients;
 import org.springframework.context.annotation.Bean;
 import org.springframework.web.client.RestTemplate;
 
 /**
- * Spring Cloud Eureka Ribbon Consumer 启动类
+ * Spring Cloud Eureka Feign Consumer 启动类
  *
  * @author Nebula Unlimited
  */
 
+@EnableFeignClients
 @EnableDiscoveryClient
 @SpringBootApplication
-public class Application {
+public class EurekaFeignConsumer {
     /**
      * 开启负载均衡客户端
      */
@@ -29,6 +31,6 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(EurekaFeignConsumer.class, args);
     }
 }

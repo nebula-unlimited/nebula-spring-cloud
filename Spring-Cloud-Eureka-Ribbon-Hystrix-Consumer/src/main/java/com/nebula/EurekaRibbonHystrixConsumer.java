@@ -17,7 +17,7 @@ import org.springframework.web.client.RestTemplate;
 @EnableCircuitBreaker
 @EnableDiscoveryClient
 @SpringBootApplication
-public class Application {
+public class EurekaRibbonHystrixConsumer {
     /**
      * 开启负载均衡客户端
      */
@@ -31,6 +31,6 @@ public class Application {
     }
 
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(EurekaRibbonHystrixConsumer.class, args);
     }
 }

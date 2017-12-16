@@ -2,18 +2,18 @@ package com.nebula;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.config.server.EnableConfigServer;
+import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
 /**
- * Spring Cloud Config Server 启动类
+ * Spring Cloud Eureka Server 启动类
  *
  * @author Nebula Unlimited
  */
 
-@EnableConfigServer
+@EnableEurekaServer
 @SpringBootApplication
-public class Application {
+public class EurekaServer {
     public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+        SpringApplication.run(EurekaServer.class, args);
     }
 }
