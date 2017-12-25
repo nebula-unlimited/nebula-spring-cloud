@@ -73,3 +73,19 @@ Spring-Cloud-Hystrix-Dashboard: Hystrix 监控面板
 
 #### Reference Site
 http://blog.didispace.com/Spring-Cloud基础教程/
+
+#### Spring Cloud Edgware
+虽然在 Edgware 版中，原 Artifact ID 依然可用，但一旦 Spring Cloud Finchley 发布，老的 Artifact ID 将会废弃。
+
+以下是 Spring Cloud Edgware 及之前版本中 Starter 改名前后的映射表：
+```
+spring-cloud-starter-eureka-server —> spring-cloud-starter-netflix-eureka-server
+spring-cloud-starter-eureka —> spring-cloud-starter-netflix-eureka-client
+spring-cloud-starter-ribbon —> spring-cloud-starter-netflix-ribbon
+spring-cloud-starter-hystrix —> spring-cloud-starter-netflix-hystrix
+spring-cloud-starter-hystrix-dashboard —> spring-cloud-starter-netflix-hystrix-dashboard
+spring-cloud-starter-turbine —> spring-cloud-starter-netflix-turbine
+spring-cloud-starter-turbine-stream --> spring-cloud-starter-netflix-turbine-stream
+spring-cloud-starter-feign —> spring-cloud-starter-openfeign
+spring-cloud-starter-zuul —> spring-cloud-starter-netflix-zuul
+```
