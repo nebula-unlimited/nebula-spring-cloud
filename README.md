@@ -71,8 +71,37 @@ Spring-Cloud-Eureka-Ribbon-Hystrix-Consumer: 服务治理 Ribbon 服务消费者
 
 Spring-Cloud-Hystrix-Dashboard: Hystrix 监控面板
 
+### Reference Project
+spring-cloud-examples
+https://github.com/ityouknow/spring-cloud-examples
+
+SpringCloud-Learning
+https://github.com/dyc87112/SpringCloud-Learning
+
 #### Reference Site
-http://blog.didispace.com/Spring-Cloud基础教程/
+Spring Cloud 官网
+http://projects.spring.io/spring-cloud
+
+http://blog.didispace.com/Spring-Cloud基础教程
+
+### Reference Blog
+纯洁的微笑
+http://www.ityouknow.com/spring-cloud
+
+程序猿DD
+http://blog.didispace.com/categories/Spring-Cloud
+
+liaokailin的专栏
+http://blog.csdn.net/liaokailin/article/category/6212338
+
+周立 Spring Cloud
+http://www.itmuch.com
+
+方志朋 Spring Cloud 专栏
+http://blog.csdn.net/column/details/15197.html
+
+许进 跟我学Spring Cloud
+http://xujin.org/categories/跟我学Spring-Cloud
 
 #### Spring Cloud Edgware
 虽然在 Edgware 版中，原 Artifact ID 依然可用，但一旦 Spring Cloud Finchley 发布，老的 Artifact ID 将会废弃。
