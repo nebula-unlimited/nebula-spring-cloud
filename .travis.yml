@@ -4,4 +4,11 @@ jdk:
   - oraclejdk9
   - openjdk8
 before_install:
-   - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+  - "echo skipped"
+install:
+  - "echo skipped"
+script:
+#  - "echo skipped" 
+  - mvn install -Dmaven.javadoc.skip=true
+# - mvn deploy
